@@ -1,0 +1,35 @@
+body  {
+font-family:impact;
+color:darkblue;
+background-color: pink;
+font-size: 42;
+text-decoration: underline;
+direction: inherit;
+}
+
+.asdf{
+background-color: black
+}
+
+.asdf:hover{
+  background-color: black;
+  color: gold;
+  font-size: 20em;
+  transition: 20s;
+
+
+  p.qwer:hover + img{
+      display: block;
+  }
+
+.qwer{
+  font-size: 40
+  padding:.5em;
+  margin:2em;
+  border:5px solid white;
+  background-color: lightblue;
+}
+
+em:hover{
+  font-size: 3em;
+  transition: 2s;
